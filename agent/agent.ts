@@ -1,6 +1,8 @@
 import { defineAgent } from "eve";
 
+import { scriptedModel } from "./lib/scripted-model.js";
+
 export default defineAgent({
-  model: "openai/gpt-6-luna-fast",
-  reasoning: "high",
+  model: scriptedModel,
+  modelContextWindowTokens: 100_000,
 });

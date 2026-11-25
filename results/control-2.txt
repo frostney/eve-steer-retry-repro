@@ -1,0 +1,9 @@
+  0.78s  model.started   run_0 attempt 0
+  0.78s  run_0 is reasoning, no assistant output yet
+  0.78s  >> steer sent (turnPolicy "steer", the default)
+  2.50s  model.settled   run_0 completed
+  2.76s  delivery.admitted (steer), 1.97 s after it was sent
+  2.81s  model.started   run_1 attempt 0
+  2.81s  reply: "Steer applied."
+  2.81s  model.settled   run_1 completed
+  2.81s  turn.settled completed

@@ -1,0 +1,455 @@
+☰eve v1.5.0
+[eve:dev.boot] compiling agent
+[eve:dev.boot] compiling agent finished { ms: 3930 }
+[eve:dev.boot] binding port
+[eve:dev.boot] binding port finished { ms: 7 }
+[eve:dev.boot] building dev bundle
+[eve:dev.boot] building dev bundle finished { ms: 7598 }
+[eve:dev.boot] starting file watcher
+[eve:dev.boot] starting file watcher finished { ms: 253 }
+[DEV] ready at http://127.0.0.1:2014/
+[workflow-sdk] This World declares no queueAuthMode, so the runtime does not authenticate deliveries to the flow route (POST /.well-known/workflow/v1/flow): a request from outside the app can start runs, fail a running one, or re-trigger its steps. Protect that route at the network edge. Declaring a queueAuthMode becomes required in Workflow SDK v6.
+  routesSinceLastLog 1
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 17 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 579,
+  sessionId: 'wrun_01M89Y20V6E5QGHQ71BJG6S4VR',
+  turnId: 'turn_0',
+  error: {
+    errorId: 'ac999796-7019-4013-b538-2eba0117cd09',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4785:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 675,
+  sessionId: 'wrun_01M89Y285NBBQTJNXR70W584K9',
+  turnId: 'turn_0',
+  error: {
+    errorId: 'b50732df-f4be-4b57-83bb-ef37bf622a6a',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4815:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 1 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 570,
+  sessionId: 'wrun_01M89Y3156TXSKMCVJQKM6V55D',
+  turnId: 'turn_0',
+  error: {
+    errorId: '1c2d3c66-5218-48cd-bfee-4011c8e7fc10',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4785:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 719,
+  sessionId: 'wrun_01M89Y3THQ05R2N5E93T9QZFJG',
+  turnId: 'turn_0',
+  error: {
+    errorId: 'fc03e3d3-a826-42a7-91b8-3e34178da9c3',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4815:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 1 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 569,
+  sessionId: 'wrun_01M89Y4H099TMWF7KM644F3P3B',
+  turnId: 'turn_0',
+  error: {
+    errorId: '6518c873-6898-402b-bff5-d33c40ae1689',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4785:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 1 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 1 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 745,
+  sessionId: 'wrun_01M89Y4KS7ENTXHKZSNCKVW1X5',
+  turnId: 'turn_0',
+  error: {
+    errorId: '1e48f390-a471-47e6-b6e2-22cdbd048de3',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4815:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 617,
+  sessionId: 'wrun_01M89Y57Z80BXSWGWJJDGW3HQP',
+  turnId: 'turn_0',
+  error: {
+    errorId: '4c64b911-6648-4b63-b1a4-c8e4871394da',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4785:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 643,
+  sessionId: 'wrun_01M89Y5BJW62ZRBXQXA37RPH0Z',
+  turnId: 'turn_0',
+  error: {
+    errorId: '33639468-90f2-4704-b2b5-c919802f34d4',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4815:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 1 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 0 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:harness.tool-loop] model call failed transiently — retrying {
+  attempt: 1,
+  delayMs: 681,
+  sessionId: 'wrun_01M89Y5X4YG0SSFZPH4MTTKE35',
+  turnId: 'turn_0',
+  error: {
+    errorId: 'a9a4437f-0251-4700-99d2-9e9e5a48024c',
+    message: 'Error: Upstream stream ended before terminal chunk',
+    detail: 'Error: Upstream stream ended before terminal chunk\n' +
+      '    at script (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4815:29)\n' +
+      '    at doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4855:17)\n' +
+      '    at MockLanguageModelV4.doStream (file://<app>/.eve/dev-runtime/snapshots/mwwfmtkz-e2a257ab-f960-4ef8-8720-bf8937cbe85e/source/.eve/compile/authored-modules/3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs?generation=authored-modules%2F3ec5050c205c282d47c4872e77001ddcf117aae8cafbd8456795ac27ed5e0225.mjs:4681:53)\n' +
+      '    at doStream (file://<app>/node_modules/ai/dist/index.js:13657:45)\n' +
+      '    at wrapStream (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:11786:36)\n' +
+      '    at Object.doStream (file://<app>/node_modules/ai/dist/index.js:13658:30)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/index.js:4788:19)\n' +
+      '    at async execute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3401:24)\n' +
+      '    at async Object.executeLanguageModelCall (file://<app>/.eve/dev-hosts/6f7ef060-cb2f-4c4e-a8ea-faed5489ca1c/nitro/dev/_libs/eve72.mjs:1083:12)\n' +
+      '    at async wrappedExecute (file://<app>/node_modules/ai/dist/default-stop-condition-D8PwkeWe.js:3397:22) {\n' +
+      '  isRetryable: true\n' +
+      '}'
+  }
+}
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
+[eve:definitions] Evaluated a dynamic value { changed: false, definition: "eve's catalog tools", durationMs: 2 }
+[eve:harness.tools] model has no web search backend; leaving the tool out {
+  gateway: false,
+  modelProvider: 'steer-repro',
+  searchProvider: 'parallel',
+  tool: 'web_search'
+}
